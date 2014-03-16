@@ -1,0 +1,13 @@
+*.pyc
+*.pyo
+*.mo
+*.swp
+*.DS_Store
+*.Trashes/
+*.fseventsd/
+*.egg/
+*.egg-info/
+/static/*
+/dd_auth/settings_local.py
+/local.ini
+/dd_auth/dd_auth.db
