@@ -1,0 +1,36 @@
+{% extends "base_remote.html" %}
+
+{% load i18n %}
+{% load account %}
+
+{% block content %}
+
+    <h1>{% trans "Passwort vergessen?" %}</h1>
+    <h2>{% trans "Passwort via E-Mail zurücksetzen" %}</h2>
+
+    {% if user.is_authenticated %}
+    {% include "account/snippets/already_logged_in.html" %}
+    {% endif %}
+    
+    <p>{% trans "Wenn du deine E-Mail-Adresse eingibst, bekommst du eine E-Mail mit einem Link, mit dem du dein Passwort zurücksetzen kannst:" %}</p>
+    
+    <form method="POST" action="{% url remote_reset_password %}" class="password_reset">
+        {% csrf_token %}
+        {% for field in password_reset_form %}
+          <div class="FormField {{ field.html_name }} {% if field.errors %}error{% endif %}">
+            {{ field.errors }}
+            {{ field.label_tag }} {{ field }}
+          </div>
+        {% endfor %}
+
+        <input class="Button" type="submit" value="{% trans "Passwort zurücksetzen" %}" />
+        <a href='javascript: history.back();'>{% trans "Zurück" %}</a>
+    </form>
+    
+{% endblock %}
+
+{% block extra_body %}
+    <script>
+        $("#id_email").focus();
+    </script>
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends "base_remote.html" %}
+
+{% load i18n %}
+{% load account %}
+
+{% block content %}
+
+    <h1>{% trans "Sorry" %}</h1>
+    <h2>{% trans "Ein Fehler?" %}</h2>
+   
+    <p>{% trans "Access denied. Du hast entweder versucht, dich ohne gültigen Invite Link anzumelden. Oder es ist ein anderer Fehler passiert." %}</p>
+    <h3>{% trans "Wie komme ich zu einem Account?" %}</h3>
+    <p>{% blocktrans %}Data Dealer läuft momentan im halböffentlichen Testbetrieb. Um Zugang zu bekommen, benötigst du einen Invite Link. Den bekommst du via E-Mail. Hier kannst du dich für einen <a href='http://datadealer.com/de/beta' target='_blank'>Invite Link</a> voranmelden.{% endblocktrans %}</p>
+    
+{% endblock %}

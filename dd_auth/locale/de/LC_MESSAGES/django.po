@@ -1,0 +1,602 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: dd_auth\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-12-09 20:02+0100\n"
+"PO-Revision-Date: 2013-12-16 15:18+0100\n"
+"Last-Translator: Tobi Schäfer <interface@p3k.org>\n"
+"Language-Team:  <dd-developer@datadealer.com>\n"
+"Language: de_AT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: settings.py:38
+msgid "German"
+msgstr "Deutsch"
+
+#: settings.py:39
+msgid "English"
+msgstr ""
+
+#: templates/footer.html:3
+msgid ""
+"<a href=\"https://datadealer.com/de/beta/\" class=\"important\" target="
+"\"_blank\">➜ Ausführliche Hintergrund-Infos & FAQ</a><br />\n"
+"Probleme? Mail an: <a href=\"mailto:reinraus@datadealer.com"
+"\">reinraus@datadealer.com</a><br />\n"
+"<a href=\"https://datadealer.com/de/kontakt\" target=\"_blank\">Team & "
+"Credits</a> | <a href=\"https://datadealer.com/de/impressum\" target=\"_blank"
+"\">Impressum & Privacy</a>"
+msgstr ""
+
+#: templates/localecollector.html:3
+msgid "This field is required."
+msgstr "Dieses Feld ist erforderlich."
+
+#: templates/localecollector.html:4
+msgid "Password reset"
+msgstr "Passwort neu setzen"
+
+#: templates/localecollector.html:5
+msgid "Password reset complete"
+msgstr "Passwort erfolgreich zurückgesetzt!"
+
+#: templates/localecollector.html:6
+msgid ""
+"Your Web browser doesn't appear to have cookies enabled. Cookies are "
+"required for logging in."
+msgstr ""
+"Dein Webbrowser scheint keine Cookies aktiviert zu haben. Um dich "
+"einzuloggen und Data Dealer spielen zu können musst du Cookies aktiviert "
+"haben."
+
+#: templates/account/access_denied.html:8
+#: templates/account/reset_from_key.html:8
+msgid "Sorry"
+msgstr "Sorry"
+
+#: templates/account/access_denied.html:9
+#: templates/account/reset_from_key.html:9
+msgid "Ein Fehler?"
+msgstr "Ein Fehler?"
+
+#: templates/account/access_denied.html:11
+msgid ""
+"Access denied. Du hast entweder versucht, dich ohne gültigen Invite Link "
+"anzumelden. Oder es ist ein anderer Fehler passiert."
+msgstr ""
+"Access denied. Du hast entweder versucht, dich ohne gültigen Invite Link "
+"anzumelden. Oder es ist ein anderer Fehler passiert. Du hast schon gespielt? "
+"Hier geht’s zum <a href=\"/#sign_in\">Login</a>."
+
+#: templates/account/access_denied.html:12 templates/account/sign_in.html:53
+msgid "Wie komme ich zu einem Account?"
+msgstr "Wie komme ich zu einem Account?"
+
+#: templates/account/access_denied.html:13 templates/account/sign_in.html:54
+msgid ""
+"Data Dealer läuft momentan im halböffentlichen Testbetrieb. Um Zugang zu "
+"bekommen, benötigst du einen Invite Link. Den bekommst du via E-Mail. Hier "
+"kannst du dich für einen <a href='http://datadealer.com/de/beta' "
+"target='_blank'>Invite Link</a> voranmelden."
+msgstr ""
+"Data Dealer läuft momentan im halböffentlichen Testbetrieb. Um Zugang zu "
+"bekommen, benötigst du einen Invite Link. Den bekommst du via E-Mail. Hier "
+"kannst du dich für einen <a href='http://datadealer.com/de/beta' "
+"target='_blank'>Invite Link</a> voranmelden."
+
+#: templates/account/reset.html:8
+msgid "Passwort vergessen?"
+msgstr "Passwort vergessen?"
+
+#: templates/account/reset.html:9
+msgid "Passwort via E-Mail zurücksetzen"
+msgstr "Passwort via E-Mail zurücksetzen"
+
+#: templates/account/reset.html:15
+msgid ""
+"Wenn du deine E-Mail-Adresse eingibst, bekommst du eine E-Mail mit einem "
+"Link, mit dem du dein Passwort zurücksetzen kannst:"
+msgstr ""
+"Wenn du deine E-Mail-Adresse eingibst, bekommst du eine E-Mail mit einem "
+"Link, mit dem du dein Passwort zurücksetzen kannst:"
+
+#: templates/account/reset.html:26
+msgid "Passwort zurücksetzen"
+msgstr "Passwort zurücksetzen"
+
+#: templates/account/reset.html:27
+msgid "Zurück"
+msgstr "Zurück"
+
+#: templates/account/reset_from_key.html:11
+msgid "Neues Passwort"
+msgstr "Neues Passwort"
+
+#: templates/account/reset_from_key.html:12
+msgid "Passwort neu setzen"
+msgstr "Passwort neu setzen"
+
+#: templates/account/reset_from_key.html:17
+msgid ""
+"Dieser Passwort-Zurücksetzen-Link hat nicht funktioniert. Vielleicht weil er "
+"schon mal benutzt wurde. Bitte fordere diesen Link <a "
+"href=“#reset_password“>nochmal an</a> oder kontaktiere uns."
+msgstr ""
+"Dieser Passwort-Zurücksetzen-Link hat nicht funktioniert. Vielleicht weil er "
+"schon mal benutzt wurde. Bitte fordere diesen Link <a "
+"href=“#reset_password“>nochmal an</a> oder kontaktiere uns."
+
+#: templates/account/reset_from_key.html:20
+msgid "Wähle dein neues Passwort und gib es zweimal ein:"
+msgstr "Wähle dein neues Passwort und gib es zweimal ein:"
+
+#: templates/account/reset_from_key.html:24
+msgid "Passwort setzen"
+msgstr "Passwort setzen"
+
+#: templates/account/reset_from_key.html:27
+msgid "Alles Klar! Dein neues Passwort ist jetzt aktiv. Yeah."
+msgstr "Alles Klar! Dein neues Passwort ist jetzt aktiv. Yeah."
+
+#: templates/account/setlang.html:4
+msgid "In welcher Sprache willst du Spielen?"
+msgstr "In welcher Sprache willst du Spielen?"
+
+#: templates/account/sign_in.html:10
+msgid "Login"
+msgstr "Closed Beta"
+
+#: templates/account/sign_in.html:11
+msgid "Data Dealer spielen"
+msgstr "Einloggen & Data Dealer spielen"
+
+#: templates/account/sign_in.html:14
+msgid ""
+"Du hast schon einen Account? Dann melde dich zum Weiterspielen mit der "
+"gleichen Methode an wie beim Registrieren. Und zwar entweder über Smoogle "
+"oder Tracebook:"
+msgstr ""
+"Du hast schon einen Account? Dann melde dich zum Weiterspielen mit der "
+"gleichen Methode an wie beim Registrieren. Und zwar entweder über Smoogle "
+"oder Tracebook:"
+
+#: templates/account/sign_in.html:23
+msgid "...oder mit deinem Account auf datadealer.com:"
+msgstr "...oder mit deinem Account auf datadealer.com:"
+
+#: templates/account/sign_in.html:47
+msgid "Login & Spielen"
+msgstr "Login & Spielen"
+
+#: templates/account/sign_in.html:49
+msgid "Forgot Password?"
+msgstr "Passwort vergessen?"
+
+#: templates/account/sign_in.html:64
+msgid "You are already signed in. <a href='#play'>Let’s play!</a>"
+msgstr "Du bist bereits eingeloggt. <a href='#play'>Los geht’s!</a>"
+
+#: templates/account/sign_up.html:6 templates/socialaccount/sign_up.html:6
+msgid "Spiel Starten"
+msgstr "Spiel Starten"
+
+#: templates/account/sign_up.html:7 templates/socialaccount/sign_up.html:7
+msgid "Account erstellen & loslegen!"
+msgstr "Account erstellen & loslegen!"
+
+#: templates/account/sign_up.html:9
+msgid ""
+"Scheint so als wärst du zur Data Dealer Closed Beta eingeladen worden. Nun "
+"hast du die Wahl. Melde dich entweder vertrauensvoll mit deinem bestehenden "
+"Account bei Smoogle oder Tracebook an (wir posten nichts in deinem Namen):"
+msgstr ""
+"Scheint so als wärst du zur Data Dealer Closed Beta eingeladen worden. Nun "
+"hast du die Wahl. Melde dich entweder vertrauensvoll mit deinem bestehenden "
+"Account bei Smoogle oder Tracebook an (wir posten nichts in deinem Namen):"
+
+#: templates/account/sign_up.html:22
+msgid ""
+"...oder wähle Nickname & Passwort und leg einen neuen Account auf datadealer."
+"com an. Gib eine E-Mail-Adresse an, wenn du in Zukunft jemals ein "
+"vergessenes Passwort zurücksetzen willst oder ähnliches:"
+msgstr ""
+"...oder wähle Nickname & Passwort und leg einen neuen Account auf datadealer."
+"com an. Gib eine E-Mail-Adresse an, wenn du in Zukunft jemals ein "
+"vergessenes Passwort zurücksetzen willst oder ähnliches:"
+
+#: templates/account/sign_up.html:46
+msgid "Anmelden & Spiel starten"
+msgstr "Anmelden & Spiel starten"
+
+#: templates/account/sign_up.html:50
+msgid "Achtung, Achtung: Das ist eine Beta. Echt."
+msgstr "Achtung, Achtung: Das ist eine Beta. Echt."
+
+#: templates/account/email/password_reset_key_message.txt:1
+#, python-format
+msgid ""
+"Du bekommst diese schöne E-Mail, weil entweder du oder jemand anderes nach "
+"einem neuen Passwort für deinen Account auf datadealer.com gefragt hat. "
+"Falls es jemand anderes gewesen sein sollte, kannst du diese E-Mail einfach "
+"ignorieren.\n"
+"\n"
+"Um dein Passwort zurückzusetzen klick auf folgenden Link:\n"
+"%(password_reset_url)s\n"
+"\n"
+"Für den Fall, dass du deinen Nickname vergessen hast: %(username)s\n"
+"\n"
+"Cheers!\n"
+"Dein persönlicher Data Dealer Robot\n"
+"\n"
+"--\n"
+"Data Dealer. Legal, illegal, scheißegal!\n"
+"http://datadealer.com\n"
+"reinraus@datadealer.com\n"
+msgstr ""
+"Du bekommst diese schöne E-Mail, weil entweder du oder jemand anderes nach "
+"einem neuen Passwort für deinen Account auf datadealer.com gefragt hat. "
+"Falls es jemand anderes gewesen sein sollte, kannst du diese E-Mail einfach "
+"ignorieren.\n"
+"\n"
+"Um dein Passwort zurückzusetzen klick auf folgenden Link:\n"
+"%(password_reset_url)s\n"
+"\n"
+"Für den Fall, dass du deinen Nickname vergessen hast: %(username)s\n"
+"\n"
+"Cheers!\n"
+"Dein persönlicher Data Dealer Robot\n"
+"\n"
+"--\n"
+"Data Dealer. Legal, illegal, scheißegal!\n"
+"http://datadealer.com\n"
+"reinraus@datadealer.com\n"
+
+#: templates/socialaccount/sign_up.html:9
+#, python-format
+msgid ""
+"You are about to use your %(provider_name)s account to login to. As a final "
+"step, please complete the following form:"
+msgstr ""
+"Soso, du verwendest deinen %(provider_name)s Account für Data Dealer? Jetzt "
+"nur noch Nickname wählen und E-Mail eintragen & ab geht die Post:"
+
+#: templates/socialaccount/sign_up.html:17
+msgid "Jetzt aber los!"
+msgstr "Jetzt aber los!"
+
+#~ msgid "Password"
+#~ msgstr "Passwort"
+
+#~ msgid "Password must be a minimum of {0} characters."
+#~ msgstr "Password muss mindestens {0} Zeichen lang sein."
+
+#~ msgid "Remember Me"
+#~ msgstr "Merken"
+
+#~ msgid "E-mail address"
+#~ msgstr "E-Mail-Adresse"
+
+#~ msgid "E-mail"
+#~ msgstr "E-Mail"
+
+#~ msgid "Username"
+#~ msgstr "Nickname"
+
+#~ msgid "Username or e-mail"
+#~ msgstr "Nickname or E-Mail"
+
+#~ msgid "This account is currently inactive."
+#~ msgstr "Dieser Account ist momentan inaktiv"
+
+#~ msgid "The e-mail address and/or password you specified are not correct."
+#~ msgstr "E-Mail und/oder Passwort sind falsch"
+
+#~ msgid "The username and/or password you specified are not correct."
+#~ msgstr "Nickname und/oder Passwort sind falsch"
+
+#~ msgid "The login and/or password you specified are not correct."
+#~ msgstr "Login und/oder Passwort sind falsch"
+
+#~ msgid "E-mail (optional)"
+#~ msgstr "E-Mail (optional)"
+
+#~ msgid "Usernames can only contain letters, digits and @/./+/-/_."
+#~ msgstr ""
+#~ "Dein Nickname darf nur aus Buchstaben, Zahlen und folgenden Zeichen "
+#~ "bestehen: @/./+/-/_."
+
+#~ msgid "This username is already taken. Please choose another."
+#~ msgstr "Diese Nickname ist schon belegt. Bitte nimm einen anderen."
+
+#~ msgid "A user is already registered with this e-mail address."
+#~ msgstr "Es gibt bereits einen Account mit dieser E-Mail-Adresse."
+
+#~ msgid "Password (again)"
+#~ msgstr "Passwort (nochmal)"
+
+#~ msgid "You must type the same password each time."
+#~ msgstr "Du musst zweimal exakt das gleiche Passwort eintippen."
+
+#~ msgid "This e-mail address is already associated with this account."
+#~ msgstr "Diese E-Mail-Adresse ist schon mit diesem Account verknüpft"
+
+#~ msgid "This e-mail address is already associated with another account."
+#~ msgstr "Diese E-Mail-Adresse ist schon mit einem anderen Account verknüpft"
+
+#~ msgid "Current Password"
+#~ msgstr "Aktuelles Passwort"
+
+#~ msgid "New Password"
+#~ msgstr "Neues Passwort"
+
+#~ msgid "New Password (again)"
+#~ msgstr "Neues Passwort (nochmal)"
+
+#~ msgid "Please type your current password."
+#~ msgstr "Bitte tipp das richtige Passwort ein."
+
+#~ msgid "The e-mail address is not assigned to any user account"
+#~ msgstr "Diese E-Mail-Adresse ist mit keinem Account verknüpft"
+
+#~ msgid "email address"
+#~ msgstr "E-Mail-Adresse"
+
+#~ msgid "email addresses"
+#~ msgstr "E-Mail-Adressen"
+
+#~ msgid "email confirmation"
+#~ msgstr "Email-Bestätigung"
+
+#~ msgid "email confirmations"
+#~ msgstr "Email-Bestätigung"
+
+#~ msgid "Successfully signed in as %(user)s."
+#~ msgstr "Erfolgreich eingeloggt als %(user)s."
+
+#~ msgid "Confirmation e-mail sent to %(email)s"
+#~ msgstr "Bestätigungs-E-Mail an %(email)s wurde versandt "
+
+#~ msgid "You cannot remove your primary e-mail address (%(email)s)"
+#~ msgstr "Du kannst deine primäre E-Mail-Adresse (%(email)s) nicht entfernen"
+
+#~ msgid "Removed e-mail address %(email)s"
+#~ msgstr "E-Mail-Adresse %(email)s entfernt"
+
+#~ msgid "Your primary e-mail address must be verified"
+#~ msgstr "Deine primäre E-Mail-Adresse muss bestätigt werden"
+
+#~ msgid "Primary e-mail address set"
+#~ msgstr "Primäre E-Mail-Adresse gesetzt"
+
+#~ msgid "Password successfully changed."
+#~ msgstr "Passwort erfolgreich geändert."
+
+#~ msgid "Password successfully set."
+#~ msgstr "Passwort erfolgreich gesetzt."
+
+#~ msgid "You have signed out."
+#~ msgstr "Du hast dich ausgeloggt."
+
+#~ msgid "Your account has no password set up."
+#~ msgstr "Dein Account hat kein Passwort gesetzt."
+
+#~ msgid "Your account has no verified e-mail address."
+#~ msgstr "Dein Account hat keine bestätigte E-Mail-Adresse"
+
+#~ msgid "The social account has been connected"
+#~ msgstr "Dein Social Account ist jetzt verknüpft"
+
+#~ msgid "The social account has been disconnected"
+#~ msgstr "Dein Social Account ist jetzt nicht mehr verknüpft"
+
+#~ msgid "E-mail Addresses"
+#~ msgstr "E-Mail-Adressen"
+
+#~ msgid "The following e-mail addresses are associated with your account:"
+#~ msgstr "Folgende E-Mail-Adressen sind mit deinem Account verknüpft:"
+
+#~ msgid "Verified"
+#~ msgstr "Bestätigt"
+
+#~ msgid "Unverified"
+#~ msgstr "Unbestätigt"
+
+#~ msgid "Primary"
+#~ msgstr "Primär"
+
+#~ msgid "Make Primary"
+#~ msgstr "Zur primären Adresse machen"
+
+#~ msgid "Re-send Verification"
+#~ msgstr "Bestätigungs-E-Mail nochmals senden"
+
+#~ msgid "Remove"
+#~ msgstr "Entfernen"
+
+#~ msgid "Warning:"
+#~ msgstr "Achtung:"
+
+#~ msgid ""
+#~ "You currently do not have any e-mail address set up. You should really "
+#~ "add an e-mail address so you can receive notifications, reset your "
+#~ "password, etc."
+#~ msgstr ""
+#~ "Keine E-Mail-Adresse eingerichtet. Du solltest echt eine E-Mail-Adresse "
+#~ "hinzufügen, damit du Bestätigungen bekommen, dein Passwort zurücksetzen "
+#~ "etc kannst."
+
+#~ msgid "Add E-mail Address"
+#~ msgstr "E-Mail-Adresse hinzufügen"
+
+#~ msgid "Add E-mail"
+#~ msgstr "E-Mail hinzufügen"
+
+#~ msgid "Do you really want to remove the selected e-mail address?"
+#~ msgstr "Möchtest du die ausgewählte E-Mail-Adresse echt entfernen?"
+
+#~ msgid "Confirm E-mail Address"
+#~ msgstr "E-Mail-Adresse bestätigen"
+
+#~ msgid "Confirm"
+#~ msgstr "Bestätigen"
+
+#~ msgid "Sign In"
+#~ msgstr "Anmelden"
+
+#~ msgid ""
+#~ "Please sign in with one\n"
+#~ "of your existing third party accounts. Or, <a \n"
+#~ "href=\"%(signup_url)s\">sign up</a> for a %(site_name)s account and sign "
+#~ "in\n"
+#~ "below:"
+#~ msgstr ""
+#~ "Bitte melde Dich mit einem Deiner vorhandenen Accounts an. Oder erstelle "
+#~ "einen <a href=\"#sign_up\">neuen Account</a> und melde Dich mit dem "
+#~ "folgenden Formular an:"
+
+#~ msgid "or"
+#~ msgstr "oder"
+
+#~ msgid "Signed Out"
+#~ msgstr "Ausgeloggt."
+
+#~ msgid "Change Password"
+#~ msgstr "Passwort ändern"
+
+#~ msgid "Delete Password"
+#~ msgstr "Passwort löschen"
+
+#~ msgid "delete my password"
+#~ msgstr "Passwort löschen"
+
+#~ msgid "Password Deleted"
+#~ msgstr "Passwort gelöscht"
+
+#~ msgid "Your password has been deleted."
+#~ msgstr "Dein Passwort wurde gelöscht."
+
+#~ msgid ""
+#~ "Forgotten your password? Enter your e-mail address below, and we'll send "
+#~ "you an e-mail allowing you to reset it."
+#~ msgstr ""
+#~ "Wenn du deine E-Mail-Adresse eingibst, bekommst du eine E-Mail mit einem "
+#~ "Link, mit dem du dein Passwort zurücksetzen kannst:"
+
+#~ msgid "Reset My Password"
+#~ msgstr "Mein Passwort zurücksetzen"
+
+#~ msgid "Please contact us if you have any trouble resetting your password."
+#~ msgstr "Bitte sag uns Bescheid, falls es dabei irgendwelche Probleme gibt."
+
+#~ msgid ""
+#~ "We have sent you an e-mail. Please contact us if you do not receive it "
+#~ "within a few minutes."
+#~ msgstr ""
+#~ "Du solltest in Kürze eine E-Mail bekommen. Bitte kontaktiere uns, wenn du "
+#~ "diese E-Mail nach 10 Minuten immer noch nicht bekommen hast."
+
+#~ msgid "Bad Token"
+#~ msgstr "Unbekanntes Token"
+
+#~ msgid ""
+#~ "The password reset link was invalid, possibly because it has already been "
+#~ "used.  Please request a <a href=\"%(passwd_reset_url)s\">new password "
+#~ "reset</a>."
+#~ msgstr ""
+#~ "Dieser Passwort-Zurücksetzen-Link funktioniert nicht. Vermutlich wurde er "
+#~ "bereits einmal dazu benutzt. Bitte fordere diesen Link <a href="
+#~ "\"%(passwd_reset_url)s\">nochmal an</a> oder kontaktiere uns."
+
+#~ msgid "change password"
+#~ msgstr "Passwort ändern"
+
+#~ msgid "Your password is now changed."
+#~ msgstr "Dein neues Passwort ist jetzt aktiv. Yeah."
+
+#~ msgid "Set Password"
+#~ msgstr "Passwort setzen"
+
+#~ msgid "Signup"
+#~ msgstr "Account erstellen"
+
+#~ msgid "Sign Up"
+#~ msgstr "Account erstellen"
+
+#~ msgid ""
+#~ "Already have an account? Then please <a href=\"%(login_url)s\">sign in</"
+#~ "a>."
+#~ msgstr ""
+#~ "Du hast schon einen Account? Dann <a href=\"%(login_url)s\">logge dich "
+#~ "bitte ein</a>."
+
+#~ msgid "Verify Your E-mail Address"
+#~ msgstr "Deine E-Mail-Adresse überprüfen"
+
+#~ msgid "Note"
+#~ msgstr "Hinweis"
+
+#~ msgid "you are already logged in as %(user_display)s."
+#~ msgstr "Du bist bereits eingeloggt als %(user_display)s."
+
+#~ msgid "OpenID Sign In"
+#~ msgstr "OpenID Login"
+
+#~ msgid "Account Inactive"
+#~ msgstr "Account inaktiv"
+
+#~ msgid "This account is inactive."
+#~ msgstr "Dieser Account ist inaktiv"
+
+#~ msgid "Social Network Login Failure"
+#~ msgstr "Social Network Login Fehler"
+
+#~ msgid ""
+#~ "An error occurred while attempting to login via your social network "
+#~ "account."
+#~ msgstr "Während dem Login via soziales Netzwerk ist ein Fehler passiert"
+
+#~ msgid "Account Connections"
+#~ msgstr "Account-Verknüpfungen"
+
+#~ msgid ""
+#~ "You can sign in to your account using any of the following third party "
+#~ "accounts:"
+#~ msgstr ""
+#~ "Du kannst dich in deinen Account mit folgenden externen Accounts "
+#~ "einloggen:"
+
+#~ msgid ""
+#~ "You currently have no social network accounts connected to this account."
+#~ msgstr ""
+#~ "Momentan sind keine sozialen Netzwerke mit deinem Account verbunden."
+
+#~ msgid "Add a 3rd Party Account"
+#~ msgstr "Externen Account hinzufügen"
+
+#~ msgid "Login Cancelled"
+#~ msgstr "Login abgebrochen"
+
+#~ msgid ""
+#~ "You decided to cancel logging in to our site using one of your existing "
+#~ "accounts. If this was a mistake, please proceed to <a href=\"%(login_url)s"
+#~ "\">sign in</a>."
+#~ msgstr ""
+#~ "Du hast dich dafür entschieden, den Login bei uns mit einem deiner "
+#~ "bestehenden Accounts abzubrechen. Wenn das ein Fehler war, geh zum <a "
+#~ "href=\"%(login_url)s\">Login</a>."
+
+#~ msgid ""
+#~ "You are about to use your %(provider_name)s account to login to \n"
+#~ "%(site_name)s. As a final step, please complete the following form:"
+#~ msgstr ""
+#~ "Soso, du verwendest deinen %(provider_name)s -Account für Data Dealer? "
+#~ "Jetzt nur noch Nickname wählen und E-Mail eintragen & ab geht die Post:"

@@ -1,0 +1,36 @@
+{% load i18n %}<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+    <link rel="stylesheet" type="text/css" href="/css/dd.min.css">
+
+    <title>Data Dealer Closed Beta</title>
+  </head>
+  <body id='dd-control'>
+  <div id="dd_auth">
+  <div class="DDAuthHeader">
+    <a class="DDAuthLogo" href="/">Data Dealer Closed Beta</a>
+    {% include "account/setlang.html" %}
+  </div>
+  <div class="DDAuthContent">
+    {% block body %}
+    {% block content %}
+    {% endblock content %}
+    {% endblock body %}
+    {% block extra_body %}
+    {% endblock extra_body %}
+  </div>
+
+  {% include "footer.html" %}
+  </div>
+  </body>
+</html>
+
+

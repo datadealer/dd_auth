@@ -1,0 +1,59 @@
+{% extends "base_remote.html" %}
+{% load url from future %}
+{% load i18n %}
+
+{% block content %}
+    <h1>{% trans "Spiel Starten" %}</h1>
+    <h2>{% trans "Account erstellen & loslegen!" %}</h2>
+
+    <p>{% blocktrans %}Scheint so als wärst du zur Data Dealer Closed Beta eingeladen worden. Nun hast du die Wahl. Melde dich entweder vertrauensvoll mit deinem bestehenden Account bei Smoogle oder Tracebook an (wir posten nichts in deinem Namen):{% endblocktrans %}</p>
+
+    {% if user.is_authenticated %}
+    {% else %}
+
+{% if socialaccount.providers  %}
+
+<div class="socialaccount_ballot">
+
+<ul class="socialaccount_providers">
+{% include "socialaccount/snippets/provider_list.html" %}
+</ul>
+
+<p class="login-or">{% trans "...oder wähle Nickname & Passwort und leg einen neuen Account auf datadealer.com an. Gib eine E-Mail-Adresse an, wenn du in Zukunft jemals ein vergessenes Passwort zurücksetzen willst oder ähnliches:" %}</p>
+
+</div>
+
+{% include "socialaccount/snippets/login_extra.html" %}
+
+{% endif %}
+
+
+        <form class="signup" id="signup_form" method="post" action="{% url 'remote_sign_up' %}">
+            {% csrf_token %}
+            <div class="NonFieldError">
+              {{ form.non_field_errors }}
+            </div>
+            {% for field in form %}
+              <div class="FormField {{ field.html_name }} {% if field.errors %}error{% endif %}">
+                {{ field.errors }}
+                {{ field.label_tag }} {{ field }}
+              </div>
+            {% endfor %}
+
+            {% if redirect_field_value %}
+            <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+            {% endif %}
+            <button class="Button" type="submit">{% trans "Anmelden & Spiel starten" %}</button>
+        </form>
+
+
+<h3>{% trans "Achtung, Achtung: Das ist eine Beta. Echt." %}</h3>
+
+    {% endif %}
+{% endblock %}
+
+{% block extra_body %}
+    <script>
+        $("#id_username").focus();
+    </script>
+{% endblock %}

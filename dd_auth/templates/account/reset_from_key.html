@@ -1,0 +1,30 @@
+{% extends "base_remote.html" %}
+{% load url from future %}
+{% load i18n %}
+
+{% block content %}
+
+    {% if token_fail %}
+      <h1>{% trans "Sorry" %}</h1>
+      <h2>{% trans "Ein Fehler?" %}</h2>
+    {% else %}
+      <h1>{% trans "Neues Passwort" %}</h1>
+      <h2>{% trans "Passwort neu setzen" %}</h2>
+    {% endif %}
+    
+    {% if token_fail %}
+        {% url 'account_reset_password' as passwd_reset_url %}
+        <p>{% blocktrans %}Dieser Passwort-Zurücksetzen-Link hat nicht funktioniert. Vielleicht weil er schon mal benutzt wurde. Bitte fordere diesen Link <a href=“#reset_password“>nochmal an</a> oder kontaktiere uns.{% endblocktrans %}</p>
+    {% else %}
+        {% if form %}
+            <p>{% trans "Wähle dein neues Passwort und gib es zweimal ein:" %}</p>
+            <form method="POST" action="{{ request.path }}" class="uniForm">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <input type="submit" name="action" value="{% trans "Passwort setzen" %}"/>
+            </form>
+        {% else %}
+            <h3>{% trans "Alles Klar! Dein neues Passwort ist jetzt aktiv. Yeah." %}</h3>
+        {% endif %}
+    {% endif %}
+{% endblock %}

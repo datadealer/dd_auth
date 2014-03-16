@@ -1,0 +1,297 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-12-09 20:02+0100\n"
+"PO-Revision-Date: 2013-12-16 15:18+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: settings.py:38
+msgid "German"
+msgstr ""
+
+#: settings.py:39
+msgid "English"
+msgstr ""
+
+#: templates/footer.html:3
+msgid ""
+"<a href=\"https://datadealer.com/de/beta/\" class=\"important\" target="
+"\"_blank\">➜ Ausführliche Hintergrund-Infos & FAQ</a><br />\n"
+"Probleme? Mail an: <a href=\"mailto:reinraus@datadealer.com"
+"\">reinraus@datadealer.com</a><br />\n"
+"<a href=\"https://datadealer.com/de/kontakt\" target=\"_blank\">Team & "
+"Credits</a> | <a href=\"https://datadealer.com/de/impressum\" target=\"_blank"
+"\">Impressum & Privacy</a>"
+msgstr ""
+"<a href=\"https://datadealer.com/beta/\" class=\"important\" target=\"_blank"
+"\">➜ Background Info, FAQ & Feedback</a><br />Problems? Email us at: <a href="
+"\"mailto:inout@datadealer.com\">inout@datadealer.com</a><br /><a href="
+"\"https://datadealer.com/team\" target=\"_blank\">Team & Credits</a> | <a "
+"href=\"https://datadealer.com/imprint\" target=\"_blank\">Imprint & Privacy</"
+"a>"
+
+#: templates/localecollector.html:3
+msgid "This field is required."
+msgstr ""
+
+#: templates/localecollector.html:4
+msgid "Password reset"
+msgstr "Set new password"
+
+#: templates/localecollector.html:5
+msgid "Password reset complete"
+msgstr "Password reset complete"
+
+#: templates/localecollector.html:6
+msgid ""
+"Your Web browser doesn't appear to have cookies enabled. Cookies are "
+"required for logging in."
+msgstr ""
+
+#: templates/account/access_denied.html:8
+#: templates/account/reset_from_key.html:8
+msgid "Sorry"
+msgstr ""
+
+#: templates/account/access_denied.html:9
+#: templates/account/reset_from_key.html:9
+msgid "Ein Fehler?"
+msgstr "Something went wrong"
+
+#: templates/account/access_denied.html:11
+msgid ""
+"Access denied. Du hast entweder versucht, dich ohne gültigen Invite Link "
+"anzumelden. Oder es ist ein anderer Fehler passiert."
+msgstr ""
+"Access denied. Either you tried signing up without a valid Invite Link, or "
+"some other error occurred. You already have an account? Click <a href=\"/"
+"#sign_in\">here</a> to go to the Login page."
+
+#: templates/account/access_denied.html:12 templates/account/sign_in.html:53
+msgid "Wie komme ich zu einem Account?"
+msgstr "How do I get an account?"
+
+#: templates/account/access_denied.html:13 templates/account/sign_in.html:54
+msgid ""
+"Data Dealer läuft momentan im halböffentlichen Testbetrieb. Um Zugang zu "
+"bekommen, benötigst du einen Invite Link. Den bekommst du via E-Mail. Hier "
+"kannst du dich für einen <a href='http://datadealer.com/de/beta' "
+"target='_blank'>Invite Link</a> voranmelden."
+msgstr ""
+"Data Dealer is currently running in semi-public test mode. To get access you "
+"need an Invite Link, which you can get via email. Sign up <a href='http://"
+"datadealer.com/beta' target='_blank'>here</a> to receive an Invite Link."
+
+#: templates/account/reset.html:8
+msgid "Passwort vergessen?"
+msgstr "Forgot your password?"
+
+#: templates/account/reset.html:9
+msgid "Passwort via E-Mail zurücksetzen"
+msgstr "Reset password via Email"
+
+#: templates/account/reset.html:15
+msgid ""
+"Wenn du deine E-Mail-Adresse eingibst, bekommst du eine E-Mail mit einem "
+"Link, mit dem du dein Passwort zurücksetzen kannst:"
+msgstr ""
+"Enter your email address, and we will send you a link to reset your password:"
+
+#: templates/account/reset.html:26
+msgid "Passwort zurücksetzen"
+msgstr "Reset Password!"
+
+#: templates/account/reset.html:27
+msgid "Zurück"
+msgstr "Back"
+
+#: templates/account/reset_from_key.html:11
+msgid "Neues Passwort"
+msgstr "Reset Password"
+
+#: templates/account/reset_from_key.html:12
+msgid "Passwort neu setzen"
+msgstr "Set new password"
+
+#: templates/account/reset_from_key.html:17
+msgid ""
+"Dieser Passwort-Zurücksetzen-Link hat nicht funktioniert. Vielleicht weil er "
+"schon mal benutzt wurde. Bitte fordere diesen Link <a "
+"href=“#reset_password“>nochmal an</a> oder kontaktiere uns."
+msgstr ""
+"For some reason this password reset link did not work. Maybe it has already "
+"been used. Please request <a href=“#reset_password“>another link</a> or "
+"contact us."
+
+#: templates/account/reset_from_key.html:20
+msgid "Wähle dein neues Passwort und gib es zweimal ein:"
+msgstr "Choose your new password and enter it twice:"
+
+#: templates/account/reset_from_key.html:24
+msgid "Passwort setzen"
+msgstr "Set new password"
+
+#: templates/account/reset_from_key.html:27
+msgid "Alles Klar! Dein neues Passwort ist jetzt aktiv. Yeah."
+msgstr "Allright! Your new password is now active. Yeah."
+
+#: templates/account/setlang.html:4
+msgid "In welcher Sprache willst du Spielen?"
+msgstr "Choose your language: "
+
+#: templates/account/sign_in.html:10
+msgid "Login"
+msgstr "Closed Beta"
+
+#: templates/account/sign_in.html:11
+msgid "Data Dealer spielen"
+msgstr "Log in & play Data Dealer"
+
+#: templates/account/sign_in.html:14
+msgid ""
+"Du hast schon einen Account? Dann melde dich zum Weiterspielen mit der "
+"gleichen Methode an wie beim Registrieren. Und zwar entweder über Smoogle "
+"oder Tracebook:"
+msgstr ""
+"Already have an account? To continue playing just sign in with the same "
+"method you used to register. Either use Smoogle or Tracebook: "
+
+#: templates/account/sign_in.html:23
+msgid "...oder mit deinem Account auf datadealer.com:"
+msgstr "...or your account on datadealer.com:"
+
+#: templates/account/sign_in.html:47
+msgid "Login & Spielen"
+msgstr "Login & Play"
+
+#: templates/account/sign_in.html:49
+msgid "Forgot Password?"
+msgstr ""
+
+#: templates/account/sign_in.html:64
+msgid "You are already signed in. <a href='#play'>Let’s play!</a>"
+msgstr ""
+
+#: templates/account/sign_up.html:6 templates/socialaccount/sign_up.html:6
+msgid "Spiel Starten"
+msgstr "Launch Game"
+
+#: templates/account/sign_up.html:7 templates/socialaccount/sign_up.html:7
+msgid "Account erstellen & loslegen!"
+msgstr "Create account & get started!"
+
+#: templates/account/sign_up.html:9
+msgid ""
+"Scheint so als wärst du zur Data Dealer Closed Beta eingeladen worden. Nun "
+"hast du die Wahl. Melde dich entweder vertrauensvoll mit deinem bestehenden "
+"Account bei Smoogle oder Tracebook an (wir posten nichts in deinem Namen):"
+msgstr ""
+"Looks like you have been invited to the Data Dealer Closed Beta! Now choose: "
+"Prove your trust and sign in with your existing Smoogle or Tracebook account "
+"(we will not post anything in your name):"
+
+#: templates/account/sign_up.html:22
+msgid ""
+"...oder wähle Nickname & Passwort und leg einen neuen Account auf datadealer."
+"com an. Gib eine E-Mail-Adresse an, wenn du in Zukunft jemals ein "
+"vergessenes Passwort zurücksetzen willst oder ähnliches:"
+msgstr ""
+"...or choose a nickname & password and create your account on datadealer.com"
+
+#: templates/account/sign_up.html:46
+msgid "Anmelden & Spiel starten"
+msgstr "Sign up & play"
+
+#: templates/account/sign_up.html:50
+msgid "Achtung, Achtung: Das ist eine Beta. Echt."
+msgstr "Attention, attention: This is a beta. For real!"
+
+#: templates/account/email/password_reset_key_message.txt:1
+#, python-format
+msgid ""
+"Du bekommst diese schöne E-Mail, weil entweder du oder jemand anderes nach "
+"einem neuen Passwort für deinen Account auf datadealer.com gefragt hat. "
+"Falls es jemand anderes gewesen sein sollte, kannst du diese E-Mail einfach "
+"ignorieren.\n"
+"\n"
+"Um dein Passwort zurückzusetzen klick auf folgenden Link:\n"
+"%(password_reset_url)s\n"
+"\n"
+"Für den Fall, dass du deinen Nickname vergessen hast: %(username)s\n"
+"\n"
+"Cheers!\n"
+"Dein persönlicher Data Dealer Robot\n"
+"\n"
+"--\n"
+"Data Dealer. Legal, illegal, scheißegal!\n"
+"http://datadealer.com\n"
+"reinraus@datadealer.com\n"
+msgstr ""
+"You're receiving this lovely email because you or someone else has requested "
+"a new password for your account at datadealer.com. If it was someone else, "
+"please ignore this email.\n"
+"\n"
+"Click the link below to reset your password:\n"
+"%(password_reset_url)s\n"
+"\n"
+"Just in case you forgot your nickname: %(username)s.\n"
+"\n"
+"Cheers!\n"
+"Your very personal Data Dealer Robot\n"
+"\n"
+"-- \n"
+"Data Dealer. Legal? Illegal? Whavever.\n"
+"http://datadealer.com\n"
+"inout@datadealer.com\n"
+
+#: templates/socialaccount/sign_up.html:9
+#, python-format
+msgid ""
+"You are about to use your %(provider_name)s account to login to. As a final "
+"step, please complete the following form:"
+msgstr ""
+"Sooo, you want to use your %(provider_name)s account for Data Dealer? Just "
+"choose a nickname, enter your email and off you go!"
+
+#: templates/socialaccount/sign_up.html:17
+msgid "Jetzt aber los!"
+msgstr "Let's go!"
+
+#~ msgid "Username"
+#~ msgstr "Nickname"
+
+#~ msgid "Username or e-mail"
+#~ msgstr "Nickname or Email"
+
+#~ msgid "The username and/or password you specified are not correct."
+#~ msgstr "This nickname and/or password are not correct."
+
+#~ msgid "The login and/or password you specified are not correct."
+#~ msgstr "This login and/or password are not correct."
+
+#~ msgid "E-mail (optional)"
+#~ msgstr "Email (optional)"
+
+#~ msgid "Usernames can only contain letters, digits and @/./+/-/_."
+#~ msgstr "Nicknames can only contain letters, digits and @/./+/-/_."
+
+#~ msgid "This username is already taken. Please choose another."
+#~ msgstr "This nickname is already taken. Please choose another."
+
+#~ msgid ""
+#~ "You are about to use your %(provider_name)s account to login to \n"
+#~ "%(site_name)s. As a final step, please complete the following form:"
+#~ msgstr ""
+#~ "Sooo, you want to use your %(provider_name)s account for Data Dealer? "
+#~ "Just choose a nickname now, enter your email and off you go!"

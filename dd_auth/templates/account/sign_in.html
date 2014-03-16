@@ -1,0 +1,68 @@
+{% extends "base_remote.html" %}
+{% load i18n %}
+{% load account %}
+{% load url from future %}
+
+{% block content %}
+
+{% if not user.is_authenticated %}
+
+<h1>{% trans "Login" %}</h1>
+<h2>{% trans "Data Dealer spielen" %}</h2>
+
+{% if socialaccount.providers  %}
+<p>{% blocktrans %}Du hast schon einen Account? Dann melde dich zum Weiterspielen mit der gleichen Methode an wie beim Registrieren. Und zwar entweder über Smoogle oder Tracebook:{% endblocktrans %}</p>
+
+<div class="socialaccount_ballot">
+
+<ul class="socialaccount_providers">
+{% include "socialaccount/snippets/provider_list.html" %}
+</ul>
+
+<p class="login-or">
+{% trans "...oder mit deinem Account auf datadealer.com:" %}
+</p>
+
+</div>
+
+{% include "socialaccount/snippets/login_extra.html" %}
+
+{% endif %}
+
+    <form class="login" method="POST" action="{% url 'remote_sign_in' %}">
+        {% csrf_token %}
+        <div class="NonFieldError">
+          {{ form.non_field_errors }}
+        </div>
+        {% for field in form %}
+          <div class="FormField {{ field.html_name }} {% if field.errors %}error{% endif %}">
+            {{ field.errors }}
+            {{ field.label_tag }} {{ field }}
+          </div>
+        {% endfor %}
+
+        {% if redirect_field_value %}
+        <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+        {% endif %}
+        <button class="primaryAction" type="submit">{% trans "Login & Spielen" %}</button>
+        <div class="forgotpwd">
+          <a class="secondaryAction" href="#reset_password">{% trans "Forgot Password?" %}</a>
+        </div>
+    </form>
+    <div class="hr"></div>
+    <h3>{% trans "Wie komme ich zu einem Account?" %}</h3>
+    <h3>{% if invite_required %}INVITES ON{% endif %}</h3>
+    <p>{% blocktrans %}Data Dealer läuft momentan im halböffentlichen Testbetrieb. Um Zugang zu bekommen, benötigst du einen Invite Link. Den bekommst du via E-Mail. Hier kannst du dich für einen <a href='http://datadealer.com/de/beta' target='_blank'>Invite Link</a> voranmelden.{% endblocktrans %}</p>
+
+{% block extra_body %}
+    <script>
+        $("#id_login").focus();
+    </script>
+{% endblock %}
+
+{% else %}
+
+{% trans "You are already signed in. <a href='#play'>Let’s play!</a>" %}
+
+{% endif %}
+{% endblock content %}

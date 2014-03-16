@@ -1,0 +1,15 @@
+{% load i18n %}
+<div class="DDAuthHeader">
+  <a class="DDAuthLogo" href="/">Data Dealer Closed Beta</a>
+  {% include "account/setlang.html" %}
+</div>
+<div class="DDAuthContent">
+  {% block body %}
+  {% block content %}
+  {% endblock content %}
+  {% endblock body %}
+  {% block extra_body %}
+  {% endblock extra_body %}
+</div>
+{% include "footer.html" %}
+
