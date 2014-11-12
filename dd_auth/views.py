@@ -68,12 +68,12 @@ def sign_out(request, **kwargs):
     return redirect('#sign_in')
   return response
 
-def set_email(request, **kwargs):
-  view = socialaccount_views.SignupView.as_view(template_name='socialaccount/sign_up.html')
-  response = view(request, **kwargs)
-  if (response.status_code == 302):
-    return redirect('#load')
-  return response
+#def set_email(request, **kwargs):
+#  view = socialaccount_views.SignupView.as_view(template_name='socialaccount/sign_up.html')
+#  response = view(request, **kwargs)
+#  if (response.status_code == 302):
+#    return redirect('#load')
+#  return response
 
 @jsonrpc_method('checkUsername')
 def check_username(request, username, **kwargs):

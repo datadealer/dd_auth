@@ -7,7 +7,7 @@ README = open(os.path.join(here, 'README.md')).read()
 CHANGES = open(os.path.join(here, 'CHANGES.txt')).read()
 
 requires = [
-    'Django==1.4.10',
+    'Django==1.4.16',
     'django-allauth==0.14.1',
     'django_extensions',
     'django-json-rpc',

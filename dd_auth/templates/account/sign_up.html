@@ -6,8 +6,11 @@
     <h1>{% trans "Spiel Starten" %}</h1>
     <h2>{% trans "Account erstellen & loslegen!" %}</h2>
 
+{% if invite_required %}
     <p>{% blocktrans %}Scheint so als wärst du zur Data Dealer Closed Beta eingeladen worden. Nun hast du die Wahl. Melde dich entweder vertrauensvoll mit deinem bestehenden Account bei Smoogle oder Tracebook an (wir posten nichts in deinem Namen):{% endblocktrans %}</p>
-
+{% else %}
+    <p>{% blocktrans %}openreg text{% endblocktrans %}</p>
+{% endif %}
     {% if user.is_authenticated %}
     {% else %}
 

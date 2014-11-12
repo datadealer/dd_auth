@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dd_auth\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-09 20:02+0100\n"
-"PO-Revision-Date: 2013-12-16 15:18+0100\n"
+"POT-Creation-Date: 2014-04-28 22:29+0200\n"
+"PO-Revision-Date: 2014-04-28 23:51+0100\n"
 "Last-Translator: Tobi Schäfer <interface@p3k.org>\n"
 "Language-Team:  <dd-developer@datadealer.com>\n"
 "Language: de_AT\n"
@@ -26,6 +26,613 @@ msgstr "Deutsch"
 msgid "English"
 msgstr ""
 
+#: extra-locales/allauth/account/forms.py:35
+#: extra-locales/allauth/account/forms.py:51
+#: extra-locales/allauth/account/forms.py:236
+#: extra-locales/allauth/account/forms.py:352
+msgid "Password"
+msgstr "Passwort"
+
+#: extra-locales/allauth/account/forms.py:44
+msgid "Password must be a minimum of {0} characters."
+msgstr "Password muss mindestens {0} Zeichen lang sein."
+
+#: extra-locales/allauth/account/forms.py:53
+msgid "Remember Me"
+msgstr "Merken"
+
+#: extra-locales/allauth/account/forms.py:64
+msgid "E-mail address"
+msgstr "E-Mail-Adresse"
+
+#: extra-locales/allauth/account/forms.py:65
+#: extra-locales/allauth/account/forms.py:184
+#: extra-locales/allauth/account/forms.py:302
+#: extra-locales/allauth/account/forms.py:369
+msgid "E-mail"
+msgstr "E-Mail"
+
+#: extra-locales/allauth/account/forms.py:70
+#: extra-locales/allauth/account/forms.py:71
+#: extra-locales/allauth/account/forms.py:170
+msgid "Username"
+msgstr "Benutzername"
+
+#: extra-locales/allauth/account/forms.py:78
+msgid "Username or e-mail"
+msgstr "Benutzername or E-Mail"
+
+#: extra-locales/allauth/account/forms.py:79 templates/account/sign_in.html:10
+msgid "Login"
+msgstr "Open Beta"
+
+#: extra-locales/allauth/account/forms.py:112
+msgid "This account is currently inactive."
+msgstr "Dieser Account ist momentan inaktiv"
+
+#: extra-locales/allauth/account/forms.py:116
+msgid "The e-mail address and/or password you specified are not correct."
+msgstr "E-Mail und/oder Passwort sind falsch"
+
+#: extra-locales/allauth/account/forms.py:120
+msgid "The username and/or password you specified are not correct."
+msgstr "Benutzername und/oder Passwort sind falsch"
+
+#: extra-locales/allauth/account/forms.py:123
+msgid "The login and/or password you specified are not correct."
+msgstr "Login und/oder Passwort sind falsch"
+
+#: extra-locales/allauth/account/forms.py:187
+msgid "E-mail (optional)"
+msgstr "E-Mail (optional)"
+
+#: extra-locales/allauth/account/forms.py:195
+msgid "Usernames can only contain letters, digits and @/./+/-/_."
+msgstr ""
+"Dein Benutzername darf nur aus Buchstaben, Zahlen und folgenden Zeichen "
+"bestehen: @/./+/-/_."
+
+#: extra-locales/allauth/account/forms.py:201
+msgid "This username is already taken. Please choose another."
+msgstr "Diese Benutzername ist schon belegt. Bitte nimm einen anderen."
+
+#: extra-locales/allauth/account/forms.py:209
+msgid "A user is already registered with this e-mail address."
+msgstr "Es gibt bereits einen Account mit dieser E-Mail-Adresse."
+
+#: extra-locales/allauth/account/forms.py:237
+#: extra-locales/allauth/account/forms.py:353
+msgid "Password (again)"
+msgstr "Passwort (nochmal)"
+
+#: extra-locales/allauth/account/forms.py:265
+#: extra-locales/allauth/account/forms.py:342
+#: extra-locales/allauth/account/forms.py:358
+#: extra-locales/allauth/account/forms.py:426
+msgid "You must type the same password each time."
+msgstr "Du musst zweimal exakt das gleiche Passwort eintippen."
+
+#: extra-locales/allauth/account/forms.py:310
+msgid "This e-mail address is already associated with this account."
+msgstr "Diese E-Mail-Adresse ist schon mit diesem Account verknüpft"
+
+#: extra-locales/allauth/account/forms.py:311
+msgid "This e-mail address is already associated with another account."
+msgstr "Diese E-Mail-Adresse ist schon mit einem anderen Account verknüpft"
+
+#: extra-locales/allauth/account/forms.py:330
+msgid "Current Password"
+msgstr "Aktuelles Passwort"
+
+#: extra-locales/allauth/account/forms.py:331
+#: extra-locales/allauth/account/forms.py:414
+msgid "New Password"
+msgstr "Neues Passwort"
+
+#: extra-locales/allauth/account/forms.py:332
+#: extra-locales/allauth/account/forms.py:415
+msgid "New Password (again)"
+msgstr "Neues Passwort (nochmal)"
+
+#: extra-locales/allauth/account/forms.py:336
+msgid "Please type your current password."
+msgstr "Bitte tipp das richtige Passwort ein."
+
+#: extra-locales/allauth/account/forms.py:379
+msgid "The e-mail address is not assigned to any user account"
+msgstr "Diese E-Mail-Adresse ist mit keinem Account verknüpft"
+
+#: extra-locales/allauth/account/models.py:28
+msgid "email address"
+msgstr "E-Mail-Adresse"
+
+#: extra-locales/allauth/account/models.py:29
+msgid "email addresses"
+msgstr "E-Mail-Adressen"
+
+#: extra-locales/allauth/account/models.py:78
+msgid "email confirmation"
+msgstr "Email-Bestätigung"
+
+#: extra-locales/allauth/account/models.py:79
+msgid "email confirmations"
+msgstr "Email-Bestätigung"
+
+#: extra-locales/allauth/account/utils.py:104
+#, python-format
+msgid "Successfully signed in as %(user)s."
+msgstr "Erfolgreich eingeloggt als %(user)s."
+
+#: extra-locales/allauth/account/utils.py:176
+#: extra-locales/allauth/account/views.py:171
+#: extra-locales/allauth/account/views.py:190
+#, python-format
+msgid "Confirmation e-mail sent to %(email)s"
+msgstr "Bestätigungs-E-Mail an %(email)s wurde versandt "
+
+#: extra-locales/allauth/account/views.py:92
+#, python-format
+msgid "You have confirmed %(email)s."
+msgstr ""
+
+#: extra-locales/allauth/account/views.py:208
+#, python-format
+msgid "You cannot remove your primary e-mail address (%(email)s)"
+msgstr "Du kannst deine primäre E-Mail-Adresse (%(email)s) nicht entfernen"
+
+#: extra-locales/allauth/account/views.py:214
+#, python-format
+msgid "Removed e-mail address %(email)s"
+msgstr "E-Mail-Adresse %(email)s entfernt"
+
+#: extra-locales/allauth/account/views.py:240
+msgid "Your primary e-mail address must be verified"
+msgstr "Deine primäre E-Mail-Adresse muss bestätigt werden"
+
+#: extra-locales/allauth/account/views.py:252
+msgid "Primary e-mail address set"
+msgstr "Primäre E-Mail-Adresse gesetzt"
+
+#: extra-locales/allauth/account/views.py:281
+#: extra-locales/allauth/account/views.py:358
+msgid "Password successfully changed."
+msgstr "Passwort erfolgreich geändert."
+
+#: extra-locales/allauth/account/views.py:306
+msgid "Password successfully set."
+msgstr "Passwort erfolgreich gesetzt."
+
+#: extra-locales/allauth/account/views.py:374
+#: extra-locales/allauth/templates/account/logout.html:10
+msgid "You have signed out."
+msgstr "Du hast dich ausgeloggt."
+
+#: extra-locales/allauth/socialaccount/forms.py:47
+msgid "Your account has no password set up."
+msgstr "Dein Account hat kein Passwort gesetzt."
+
+#: extra-locales/allauth/socialaccount/forms.py:51
+msgid "Your account has no verified e-mail address."
+msgstr "Dein Account hat keine bestätigte E-Mail-Adresse"
+
+#: extra-locales/allauth/socialaccount/helpers.py:113
+msgid "The social account has been connected"
+msgstr "Dein Social Account ist jetzt verknüpft"
+
+#: extra-locales/allauth/socialaccount/views.py:54
+msgid "The social account has been disconnected"
+msgstr "Dein Social Account ist jetzt nicht mehr verknüpft"
+
+#: extra-locales/allauth/socialaccount/providers/oauth/client.py:84
+#, python-format
+msgid "Invalid response while obtaining request token from \"%s\"."
+msgstr ""
+
+#: extra-locales/allauth/socialaccount/providers/oauth/client.py:107
+#, python-format
+msgid "Invalid response while obtaining access token from \"%s\"."
+msgstr ""
+
+#: extra-locales/allauth/socialaccount/providers/oauth/client.py:120
+#, python-format
+msgid "No request token saved for \"%s\"."
+msgstr ""
+
+#: extra-locales/allauth/socialaccount/providers/oauth/client.py:168
+#, python-format
+msgid "No access token saved for \"%s\"."
+msgstr ""
+
+#: extra-locales/allauth/socialaccount/providers/oauth/client.py:188
+#, python-format
+msgid "No access to private resources at \"%s\"."
+msgstr ""
+
+#: extra-locales/allauth/templates/account/email.html:6
+#, fuzzy
+msgid "Account"
+msgstr "Account inaktiv"
+
+#: extra-locales/allauth/templates/account/email.html:9
+msgid "E-mail Addresses"
+msgstr "E-Mail-Adressen"
+
+#: extra-locales/allauth/templates/account/email.html:11
+msgid "The following e-mail addresses are associated with your account:"
+msgstr "Folgende E-Mail-Adressen sind mit deinem Account verknüpft:"
+
+#: extra-locales/allauth/templates/account/email.html:25
+msgid "Verified"
+msgstr "Bestätigt"
+
+#: extra-locales/allauth/templates/account/email.html:27
+msgid "Unverified"
+msgstr "Unbestätigt"
+
+#: extra-locales/allauth/templates/account/email.html:29
+msgid "Primary"
+msgstr "Primär"
+
+#: extra-locales/allauth/templates/account/email.html:35
+msgid "Make Primary"
+msgstr "Zur primären Adresse machen"
+
+#: extra-locales/allauth/templates/account/email.html:36
+msgid "Re-send Verification"
+msgstr "Bestätigungs-E-Mail nochmals senden"
+
+#: extra-locales/allauth/templates/account/email.html:37
+#: extra-locales/allauth/templates/socialaccount/connections.html:35
+msgid "Remove"
+msgstr "Entfernen"
+
+#: extra-locales/allauth/templates/account/email.html:44
+msgid "Warning:"
+msgstr "Achtung:"
+
+#: extra-locales/allauth/templates/account/email.html:44
+msgid ""
+"You currently do not have any e-mail address set up. You should really add "
+"an e-mail address so you can receive notifications, reset your password, etc."
+msgstr ""
+"Keine E-Mail-Adresse eingerichtet. Du solltest echt eine E-Mail-Adresse "
+"hinzufügen, damit du Bestätigungen bekommen, dein Passwort zurücksetzen etc "
+"kannst."
+
+#: extra-locales/allauth/templates/account/email.html:49
+msgid "Add E-mail Address"
+msgstr "E-Mail-Adresse hinzufügen"
+
+#: extra-locales/allauth/templates/account/email.html:54
+msgid "Add E-mail"
+msgstr "E-Mail hinzufügen"
+
+#: extra-locales/allauth/templates/account/email.html:64
+msgid "Do you really want to remove the selected e-mail address?"
+msgstr "Möchtest du die ausgewählte E-Mail-Adresse echt entfernen?"
+
+#: extra-locales/allauth/templates/account/email_confirm.html:7
+#: extra-locales/allauth/templates/account/email_confirm.html:11
+#: extra-locales/allauth/templates/account/email_confirmed.html:6
+#: extra-locales/allauth/templates/account/email_confirmed.html:11
+#: extra-locales/allauth/templates/account/email/email_confirmation_subject.txt:3
+msgid "Confirm E-mail Address"
+msgstr "E-Mail-Adresse bestätigen"
+
+#: extra-locales/allauth/templates/account/email_confirm.html:17
+#, python-format
+msgid ""
+"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
+"address for user %(user_display)s."
+msgstr ""
+
+#: extra-locales/allauth/templates/account/email_confirm.html:21
+msgid "Confirm"
+msgstr "Bestätigen"
+
+#: extra-locales/allauth/templates/account/email_confirm.html:28
+#, python-format
+msgid ""
+"This e-mail confirmation link expired or is invalid. Please <a href="
+"\"%(email_url)s\">issue a new e-mail confirmation request</a>."
+msgstr ""
+
+#: extra-locales/allauth/templates/account/email_confirmed.html:15
+#, python-format
+msgid ""
+"You have confirmed that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-"
+"mail address for user %(user_display)s."
+msgstr ""
+
+#: extra-locales/allauth/templates/account/login.html:7
+#: extra-locales/allauth/templates/account/login.html:12
+#: extra-locales/allauth/templates/account/login.html:44
+msgid "Sign In"
+msgstr "Anmelden"
+
+#: extra-locales/allauth/templates/account/login.html:17
+#, fuzzy, python-format
+msgid ""
+"Please sign in with one\n"
+"of your existing third party accounts. Or, <a \n"
+"href=\"%(signup_url)s\">sign up</a> for a %(site_name)s account and sign in\n"
+"below:"
+msgstr ""
+"Bitte melde Dich mit einem Deiner vorhandenen Accounts an. Oder erstelle "
+"einen <a href=\"#sign_up\">neuen Account</a> und melde Dich mit dem "
+"folgenden Formular an:"
+
+#: extra-locales/allauth/templates/account/login.html:28
+msgid "or"
+msgstr "oder"
+
+#: extra-locales/allauth/templates/account/login.html:43
+#: templates/account/sign_in.html:49
+msgid "Forgot Password?"
+msgstr "Passwort vergessen?"
+
+#: extra-locales/allauth/templates/account/logout.html:5
+#: extra-locales/allauth/templates/account/logout.html:8
+msgid "Signed Out"
+msgstr "Ausgeloggt."
+
+#: extra-locales/allauth/templates/account/password_change.html:4
+#: extra-locales/allauth/templates/account/password_change.html:7
+#: extra-locales/allauth/templates/account/password_change.html:12
+#: extra-locales/allauth/templates/account/password_reset_from_key.html:5
+#: extra-locales/allauth/templates/account/password_reset_from_key.html:8
+msgid "Change Password"
+msgstr "Passwort ändern"
+
+#: extra-locales/allauth/templates/account/password_delete.html:5
+#: extra-locales/allauth/templates/account/password_delete.html:8
+msgid "Delete Password"
+msgstr "Passwort löschen"
+
+#: extra-locales/allauth/templates/account/password_delete.html:9
+msgid ""
+"You may delete your password since you are currently logged in using OpenID."
+msgstr ""
+
+#: extra-locales/allauth/templates/account/password_delete.html:12
+msgid "delete my password"
+msgstr "Passwort löschen"
+
+#: extra-locales/allauth/templates/account/password_delete_done.html:5
+#: extra-locales/allauth/templates/account/password_delete_done.html:8
+msgid "Password Deleted"
+msgstr "Passwort gelöscht"
+
+#: extra-locales/allauth/templates/account/password_delete_done.html:9
+msgid "Your password has been deleted."
+msgstr "Dein Passwort wurde gelöscht."
+
+#: extra-locales/allauth/templates/account/password_reset.html:6
+#: extra-locales/allauth/templates/account/password_reset.html:10
+#: extra-locales/allauth/templates/account/password_reset_done.html:6
+#: extra-locales/allauth/templates/account/password_reset_done.html:9
+#, fuzzy
+msgid "Password Reset"
+msgstr "Passwort neu setzen"
+
+#: extra-locales/allauth/templates/account/password_reset.html:15
+msgid ""
+"Forgotten your password? Enter your e-mail address below, and we'll send you "
+"an e-mail allowing you to reset it."
+msgstr ""
+"Wenn du deine E-Mail-Adresse eingibst, bekommst du eine E-Mail mit einem "
+"Link, mit dem du dein Passwort zurücksetzen kannst:"
+
+#: extra-locales/allauth/templates/account/password_reset.html:20
+msgid "Reset My Password"
+msgstr "Mein Passwort zurücksetzen"
+
+#: extra-locales/allauth/templates/account/password_reset.html:23
+msgid "Please contact us if you have any trouble resetting your password."
+msgstr "Bitte sag uns Bescheid, falls es dabei irgendwelche Probleme gibt."
+
+#: extra-locales/allauth/templates/account/password_reset_done.html:15
+msgid ""
+"We have sent you an e-mail. Please contact us if you do not receive it "
+"within a few minutes."
+msgstr ""
+"Du solltest in Kürze eine E-Mail bekommen. Bitte kontaktiere uns, wenn du "
+"diese E-Mail nach 10 Minuten immer noch nicht bekommen hast."
+
+#: extra-locales/allauth/templates/account/password_reset_from_key.html:8
+msgid "Bad Token"
+msgstr "Unbekanntes Token"
+
+#: extra-locales/allauth/templates/account/password_reset_from_key.html:12
+#, python-format
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a <a href=\"%(passwd_reset_url)s\">new password reset</"
+"a>."
+msgstr ""
+"Dieser Passwort-Zurücksetzen-Link funktioniert nicht. Vermutlich wurde er "
+"bereits einmal dazu benutzt. Bitte fordere diesen Link <a href="
+"\"%(passwd_reset_url)s\">nochmal an</a> oder kontaktiere uns."
+
+#: extra-locales/allauth/templates/account/password_reset_from_key.html:18
+msgid "change password"
+msgstr "Passwort ändern"
+
+#: extra-locales/allauth/templates/account/password_reset_from_key.html:21
+msgid "Your password is now changed."
+msgstr "Dein neues Passwort ist jetzt aktiv. Yeah."
+
+#: extra-locales/allauth/templates/account/password_set.html:5
+#: extra-locales/allauth/templates/account/password_set.html:8
+#: extra-locales/allauth/templates/account/password_set.html:13
+msgid "Set Password"
+msgstr "Passwort setzen"
+
+#: extra-locales/allauth/templates/account/signup.html:6
+#: extra-locales/allauth/templates/socialaccount/signup.html:5
+msgid "Signup"
+msgstr "Account erstellen"
+
+#: extra-locales/allauth/templates/account/signup.html:9
+#: extra-locales/allauth/templates/account/signup.html:22
+#: extra-locales/allauth/templates/socialaccount/signup.html:8
+#: extra-locales/allauth/templates/socialaccount/signup.html:19
+msgid "Sign Up"
+msgstr "Account erstellen"
+
+#: extra-locales/allauth/templates/account/signup.html:14
+#, python-format
+msgid ""
+"Already have an account? Then please <a href=\"%(login_url)s\">sign in</a>."
+msgstr ""
+"Du hast schon einen Account? Dann <a href=\"%(login_url)s\">logge dich bitte "
+"ein</a>."
+
+#: extra-locales/allauth/templates/account/verification_sent.html:5
+#: extra-locales/allauth/templates/account/verification_sent.html:8
+#: extra-locales/allauth/templates/account/verified_email_required.html:6
+#: extra-locales/allauth/templates/account/verified_email_required.html:9
+msgid "Verify Your E-mail Address"
+msgstr "Deine E-Mail-Adresse überprüfen"
+
+#: extra-locales/allauth/templates/account/verification_sent.html:10
+#, python-format
+msgid ""
+"We have sent an e-mail to <a href=\"mailto:%(email)s\">%(email)s</a> for "
+"verification. Follow the link provided to finalize the signup process. "
+"Please contact us if you do not receive it within a few minutes."
+msgstr ""
+
+#: extra-locales/allauth/templates/account/verified_email_required.html:13
+msgid ""
+"This part of the site requires us to verify that\n"
+"you are who you claim to be. For this purpose, we require that you\n"
+"verify ownership of your e-mail address. "
+msgstr ""
+
+#: extra-locales/allauth/templates/account/verified_email_required.html:17
+#, fuzzy
+msgid ""
+"We have sent an e-mail to you for\n"
+"verification. Please click on the link inside this e-mail. Please\n"
+"contact us if you do not receive it within a few minutes."
+msgstr ""
+"Du solltest in Kürze eine E-Mail bekommen. Bitte kontaktiere uns, wenn du "
+"diese E-Mail nach 10 Minuten immer noch nicht bekommen hast."
+
+#: extra-locales/allauth/templates/account/verified_email_required.html:21
+#, python-format
+msgid ""
+"<strong>Note:</strong> you can still <a href=\"%(email_url)s\">change your e-"
+"mail address</a>."
+msgstr ""
+
+#: extra-locales/allauth/templates/account/email/email_confirmation_message.txt:1
+#, python-format
+msgid ""
+"User %(user_display)s at %(site_name)s has given this as an email address.\n"
+"\n"
+"To confirm this is correct, go to %(activate_url)s\n"
+msgstr ""
+
+#: extra-locales/allauth/templates/account/email/password_reset_key_message.txt:1
+#, python-format
+msgid ""
+"You're receiving this e-mail because you or someone else has requested a "
+"password for your user account at %(site_domain)s.\n"
+"It can be safely ignored if you did not request a password reset. Click the "
+"link below to reset your password.\n"
+"\n"
+"%(password_reset_url)s\n"
+"\n"
+"In case you forgot, your username is %(username)s.\n"
+"\n"
+"Thanks for using our site!\n"
+msgstr ""
+
+#: extra-locales/allauth/templates/account/email/password_reset_key_subject.txt:3
+#, fuzzy
+msgid "Password Reset E-mail"
+msgstr "Passwort neu setzen"
+
+#: extra-locales/allauth/templates/account/snippets/already_logged_in.html:5
+msgid "Note"
+msgstr "Hinweis"
+
+#: extra-locales/allauth/templates/account/snippets/already_logged_in.html:5
+#, python-format
+msgid "you are already logged in as %(user_display)s."
+msgstr "Du bist bereits eingeloggt als %(user_display)s."
+
+#: extra-locales/allauth/templates/openid/login.html:10
+msgid "OpenID Sign In"
+msgstr "OpenID Login"
+
+#: extra-locales/allauth/templates/socialaccount/account_inactive.html:5
+#: extra-locales/allauth/templates/socialaccount/account_inactive.html:8
+msgid "Account Inactive"
+msgstr "Account inaktiv"
+
+#: extra-locales/allauth/templates/socialaccount/account_inactive.html:10
+msgid "This account is inactive."
+msgstr "Dieser Account ist inaktiv"
+
+#: extra-locales/allauth/templates/socialaccount/authentication_error.html:5
+#: extra-locales/allauth/templates/socialaccount/authentication_error.html:8
+msgid "Social Network Login Failure"
+msgstr "Social Network Login Fehler"
+
+#: extra-locales/allauth/templates/socialaccount/authentication_error.html:10
+msgid ""
+"An error occurred while attempting to login via your social network account."
+msgstr "Während dem Login via soziales Netzwerk ist ein Fehler passiert"
+
+#: extra-locales/allauth/templates/socialaccount/connections.html:5
+#: extra-locales/allauth/templates/socialaccount/connections.html:8
+msgid "Account Connections"
+msgstr "Account-Verknüpfungen"
+
+#: extra-locales/allauth/templates/socialaccount/connections.html:11
+msgid ""
+"You can sign in to your account using any of the following third party "
+"accounts:"
+msgstr ""
+"Du kannst dich in deinen Account mit folgenden externen Accounts einloggen:"
+
+#: extra-locales/allauth/templates/socialaccount/connections.html:43
+msgid ""
+"You currently have no social network accounts connected to this account."
+msgstr "Momentan sind keine sozialen Netzwerke mit deinem Account verbunden."
+
+#: extra-locales/allauth/templates/socialaccount/connections.html:46
+msgid "Add a 3rd Party Account"
+msgstr "Externen Account hinzufügen"
+
+#: extra-locales/allauth/templates/socialaccount/login_cancelled.html:6
+#: extra-locales/allauth/templates/socialaccount/login_cancelled.html:10
+msgid "Login Cancelled"
+msgstr "Login abgebrochen"
+
+#: extra-locales/allauth/templates/socialaccount/login_cancelled.html:14
+#, python-format
+msgid ""
+"You decided to cancel logging in to our site using one of your existing "
+"accounts. If this was a mistake, please proceed to <a href=\"%(login_url)s"
+"\">sign in</a>."
+msgstr ""
+"Du hast dich dafür entschieden, den Login bei uns mit einem deiner "
+"bestehenden Accounts abzubrechen. Wenn das ein Fehler war, geh zum <a href="
+"\"%(login_url)s\">Login</a>."
+
+#: extra-locales/allauth/templates/socialaccount/signup.html:10
+#, python-format
+msgid ""
+"You are about to use your %(provider_name)s account to login to \n"
+"%(site_name)s. As a final step, please complete the following form:"
+msgstr ""
+"Soso, du verwendest deinen %(provider_name)s -Account für Data Dealer? Jetzt "
+"nur noch Benutzername wählen und E-Mail eintragen & ab geht die Post: <!-- %(site_name)s -->"
+
 #: templates/footer.html:3
 msgid ""
 "<a href=\"https://datadealer.com/de/beta/\" class=\"important\" target="
@@ -36,6 +643,13 @@ msgid ""
 "Credits</a> | <a href=\"https://datadealer.com/de/impressum\" target=\"_blank"
 "\">Impressum & Privacy</a>"
 msgstr ""
+"<a href=\"https://datadealer.com/de/beta\" class=\"important\" target="
+"\"_blank\">➜ Ausführliche Hintergrund-Infos & FAQ</a><br />\n"
+"Probleme? Mail an: <a href=\"mailto:reinraus@datadealer.com"
+"\">reinraus@datadealer.com</a><br />\n"
+"<a href=\"https://datadealer.com/de/kontakt\" target=\"_blank\">Team & "
+"Credits</a> | <a href=\"https://datadealer.com/de/impressum\" target=\"_blank"
+"\">Impressum & Privacy</a>"
 
 #: templates/localecollector.html:3
 msgid "This field is required."
@@ -77,11 +691,11 @@ msgstr ""
 "anzumelden. Oder es ist ein anderer Fehler passiert. Du hast schon gespielt? "
 "Hier geht’s zum <a href=\"/#sign_in\">Login</a>."
 
-#: templates/account/access_denied.html:12 templates/account/sign_in.html:53
+#: templates/account/access_denied.html:12 templates/account/sign_in.html:54
 msgid "Wie komme ich zu einem Account?"
 msgstr "Wie komme ich zu einem Account?"
 
-#: templates/account/access_denied.html:13 templates/account/sign_in.html:54
+#: templates/account/access_denied.html:13 templates/account/sign_in.html:55
 msgid ""
 "Data Dealer läuft momentan im halböffentlichen Testbetrieb. Um Zugang zu "
 "bekommen, benötigst du einen Invite Link. Den bekommst du via E-Mail. Hier "
@@ -151,10 +765,6 @@ msgstr "Alles Klar! Dein neues Passwort ist jetzt aktiv. Yeah."
 msgid "In welcher Sprache willst du Spielen?"
 msgstr "In welcher Sprache willst du Spielen?"
 
-#: templates/account/sign_in.html:10
-msgid "Login"
-msgstr "Closed Beta"
-
 #: templates/account/sign_in.html:11
 msgid "Data Dealer spielen"
 msgstr "Einloggen & Data Dealer spielen"
@@ -177,11 +787,18 @@ msgstr "...oder mit deinem Account auf datadealer.com:"
 msgid "Login & Spielen"
 msgstr "Login & Spielen"
 
-#: templates/account/sign_in.html:49
-msgid "Forgot Password?"
-msgstr "Passwort vergessen?"
+#: templates/account/sign_in.html:57
+msgid "openreg Title"
+msgstr "Noch keinen Account?"
 
-#: templates/account/sign_in.html:64
+#: templates/account/sign_in.html:58
+msgid "openreg <a href='/#sign_up'>Neuer Account</a>."
+msgstr ""
+"Du bist neu hier und möchtest spielen? Data Dealer läuft momentan im Beta-"
+"Betrieb, klicke <a href=\"/#sign_up\">hier</a> um einen frischen Account "
+"anzulegen und gleich loszulegen!"
+
+#: templates/account/sign_in.html:68
 msgid "You are already signed in. <a href='#play'>Let’s play!</a>"
 msgstr "Du bist bereits eingeloggt. <a href='#play'>Los geht’s!</a>"
 
@@ -193,7 +810,7 @@ msgstr "Spiel Starten"
 msgid "Account erstellen & loslegen!"
 msgstr "Account erstellen & loslegen!"
 
-#: templates/account/sign_up.html:9
+#: templates/account/sign_up.html:10
 msgid ""
 "Scheint so als wärst du zur Data Dealer Closed Beta eingeladen worden. Nun "
 "hast du die Wahl. Melde dich entweder vertrauensvoll mit deinem bestehenden "
@@ -203,21 +820,28 @@ msgstr ""
 "hast du die Wahl. Melde dich entweder vertrauensvoll mit deinem bestehenden "
 "Account bei Smoogle oder Tracebook an (wir posten nichts in deinem Namen):"
 
-#: templates/account/sign_up.html:22
+#: templates/account/sign_up.html:12
+msgid "openreg text"
+msgstr ""
+"Nun hast du die Wahl. Melde dich entweder vertrauensvoll mit deinem "
+"bestehenden Account bei Smoogle oder Tracebook an (wir posten nichts in "
+"deinem Namen):"
+
+#: templates/account/sign_up.html:25
 msgid ""
 "...oder wähle Nickname & Passwort und leg einen neuen Account auf datadealer."
 "com an. Gib eine E-Mail-Adresse an, wenn du in Zukunft jemals ein "
 "vergessenes Passwort zurücksetzen willst oder ähnliches:"
 msgstr ""
-"...oder wähle Nickname & Passwort und leg einen neuen Account auf datadealer."
-"com an. Gib eine E-Mail-Adresse an, wenn du in Zukunft jemals ein "
+"...oder wähle Benutzername & Passwort und leg einen neuen Account auf "
+"datadealer.com an. Gib eine E-Mail-Adresse an, wenn du in Zukunft jemals ein "
 "vergessenes Passwort zurücksetzen willst oder ähnliches:"
 
-#: templates/account/sign_up.html:46
+#: templates/account/sign_up.html:49
 msgid "Anmelden & Spiel starten"
 msgstr "Anmelden & Spiel starten"
 
-#: templates/account/sign_up.html:50
+#: templates/account/sign_up.html:53
 msgid "Achtung, Achtung: Das ist eine Beta. Echt."
 msgstr "Achtung, Achtung: Das ist eine Beta. Echt."
 
@@ -250,7 +874,7 @@ msgstr ""
 "Um dein Passwort zurückzusetzen klick auf folgenden Link:\n"
 "%(password_reset_url)s\n"
 "\n"
-"Für den Fall, dass du deinen Nickname vergessen hast: %(username)s\n"
+"Für den Fall, dass du deinen Benutzernamen vergessen hast: %(username)s\n"
 "\n"
 "Cheers!\n"
 "Dein persönlicher Data Dealer Robot\n"
@@ -267,336 +891,8 @@ msgid ""
 "step, please complete the following form:"
 msgstr ""
 "Soso, du verwendest deinen %(provider_name)s Account für Data Dealer? Jetzt "
-"nur noch Nickname wählen und E-Mail eintragen & ab geht die Post:"
+"nur noch Benutzername wählen und E-Mail eintragen & ab geht die Post:"
 
 #: templates/socialaccount/sign_up.html:17
 msgid "Jetzt aber los!"
 msgstr "Jetzt aber los!"
-
-#~ msgid "Password"
-#~ msgstr "Passwort"
-
-#~ msgid "Password must be a minimum of {0} characters."
-#~ msgstr "Password muss mindestens {0} Zeichen lang sein."
-
-#~ msgid "Remember Me"
-#~ msgstr "Merken"
-
-#~ msgid "E-mail address"
-#~ msgstr "E-Mail-Adresse"
-
-#~ msgid "E-mail"
-#~ msgstr "E-Mail"
-
-#~ msgid "Username"
-#~ msgstr "Nickname"
-
-#~ msgid "Username or e-mail"
-#~ msgstr "Nickname or E-Mail"
-
-#~ msgid "This account is currently inactive."
-#~ msgstr "Dieser Account ist momentan inaktiv"
-
-#~ msgid "The e-mail address and/or password you specified are not correct."
-#~ msgstr "E-Mail und/oder Passwort sind falsch"
-
-#~ msgid "The username and/or password you specified are not correct."
-#~ msgstr "Nickname und/oder Passwort sind falsch"
-
-#~ msgid "The login and/or password you specified are not correct."
-#~ msgstr "Login und/oder Passwort sind falsch"
-
-#~ msgid "E-mail (optional)"
-#~ msgstr "E-Mail (optional)"
-
-#~ msgid "Usernames can only contain letters, digits and @/./+/-/_."
-#~ msgstr ""
-#~ "Dein Nickname darf nur aus Buchstaben, Zahlen und folgenden Zeichen "
-#~ "bestehen: @/./+/-/_."
-
-#~ msgid "This username is already taken. Please choose another."
-#~ msgstr "Diese Nickname ist schon belegt. Bitte nimm einen anderen."
-
-#~ msgid "A user is already registered with this e-mail address."
-#~ msgstr "Es gibt bereits einen Account mit dieser E-Mail-Adresse."
-
-#~ msgid "Password (again)"
-#~ msgstr "Passwort (nochmal)"
-
-#~ msgid "You must type the same password each time."
-#~ msgstr "Du musst zweimal exakt das gleiche Passwort eintippen."
-
-#~ msgid "This e-mail address is already associated with this account."
-#~ msgstr "Diese E-Mail-Adresse ist schon mit diesem Account verknüpft"
-
-#~ msgid "This e-mail address is already associated with another account."
-#~ msgstr "Diese E-Mail-Adresse ist schon mit einem anderen Account verknüpft"
-
-#~ msgid "Current Password"
-#~ msgstr "Aktuelles Passwort"
-
-#~ msgid "New Password"
-#~ msgstr "Neues Passwort"
-
-#~ msgid "New Password (again)"
-#~ msgstr "Neues Passwort (nochmal)"
-
-#~ msgid "Please type your current password."
-#~ msgstr "Bitte tipp das richtige Passwort ein."
-
-#~ msgid "The e-mail address is not assigned to any user account"
-#~ msgstr "Diese E-Mail-Adresse ist mit keinem Account verknüpft"
-
-#~ msgid "email address"
-#~ msgstr "E-Mail-Adresse"
-
-#~ msgid "email addresses"
-#~ msgstr "E-Mail-Adressen"
-
-#~ msgid "email confirmation"
-#~ msgstr "Email-Bestätigung"
-
-#~ msgid "email confirmations"
-#~ msgstr "Email-Bestätigung"
-
-#~ msgid "Successfully signed in as %(user)s."
-#~ msgstr "Erfolgreich eingeloggt als %(user)s."
-
-#~ msgid "Confirmation e-mail sent to %(email)s"
-#~ msgstr "Bestätigungs-E-Mail an %(email)s wurde versandt "
-
-#~ msgid "You cannot remove your primary e-mail address (%(email)s)"
-#~ msgstr "Du kannst deine primäre E-Mail-Adresse (%(email)s) nicht entfernen"
-
-#~ msgid "Removed e-mail address %(email)s"
-#~ msgstr "E-Mail-Adresse %(email)s entfernt"
-
-#~ msgid "Your primary e-mail address must be verified"
-#~ msgstr "Deine primäre E-Mail-Adresse muss bestätigt werden"
-
-#~ msgid "Primary e-mail address set"
-#~ msgstr "Primäre E-Mail-Adresse gesetzt"
-
-#~ msgid "Password successfully changed."
-#~ msgstr "Passwort erfolgreich geändert."
-
-#~ msgid "Password successfully set."
-#~ msgstr "Passwort erfolgreich gesetzt."
-
-#~ msgid "You have signed out."
-#~ msgstr "Du hast dich ausgeloggt."
-
-#~ msgid "Your account has no password set up."
-#~ msgstr "Dein Account hat kein Passwort gesetzt."
-
-#~ msgid "Your account has no verified e-mail address."
-#~ msgstr "Dein Account hat keine bestätigte E-Mail-Adresse"
-
-#~ msgid "The social account has been connected"
-#~ msgstr "Dein Social Account ist jetzt verknüpft"
-
-#~ msgid "The social account has been disconnected"
-#~ msgstr "Dein Social Account ist jetzt nicht mehr verknüpft"
-
-#~ msgid "E-mail Addresses"
-#~ msgstr "E-Mail-Adressen"
-
-#~ msgid "The following e-mail addresses are associated with your account:"
-#~ msgstr "Folgende E-Mail-Adressen sind mit deinem Account verknüpft:"
-
-#~ msgid "Verified"
-#~ msgstr "Bestätigt"
-
-#~ msgid "Unverified"
-#~ msgstr "Unbestätigt"
-
-#~ msgid "Primary"
-#~ msgstr "Primär"
-
-#~ msgid "Make Primary"
-#~ msgstr "Zur primären Adresse machen"
-
-#~ msgid "Re-send Verification"
-#~ msgstr "Bestätigungs-E-Mail nochmals senden"
-
-#~ msgid "Remove"
-#~ msgstr "Entfernen"
-
-#~ msgid "Warning:"
-#~ msgstr "Achtung:"
-
-#~ msgid ""
-#~ "You currently do not have any e-mail address set up. You should really "
-#~ "add an e-mail address so you can receive notifications, reset your "
-#~ "password, etc."
-#~ msgstr ""
-#~ "Keine E-Mail-Adresse eingerichtet. Du solltest echt eine E-Mail-Adresse "
-#~ "hinzufügen, damit du Bestätigungen bekommen, dein Passwort zurücksetzen "
-#~ "etc kannst."
-
-#~ msgid "Add E-mail Address"
-#~ msgstr "E-Mail-Adresse hinzufügen"
-
-#~ msgid "Add E-mail"
-#~ msgstr "E-Mail hinzufügen"
-
-#~ msgid "Do you really want to remove the selected e-mail address?"
-#~ msgstr "Möchtest du die ausgewählte E-Mail-Adresse echt entfernen?"
-
-#~ msgid "Confirm E-mail Address"
-#~ msgstr "E-Mail-Adresse bestätigen"
-
-#~ msgid "Confirm"
-#~ msgstr "Bestätigen"
-
-#~ msgid "Sign In"
-#~ msgstr "Anmelden"
-
-#~ msgid ""
-#~ "Please sign in with one\n"
-#~ "of your existing third party accounts. Or, <a \n"
-#~ "href=\"%(signup_url)s\">sign up</a> for a %(site_name)s account and sign "
-#~ "in\n"
-#~ "below:"
-#~ msgstr ""
-#~ "Bitte melde Dich mit einem Deiner vorhandenen Accounts an. Oder erstelle "
-#~ "einen <a href=\"#sign_up\">neuen Account</a> und melde Dich mit dem "
-#~ "folgenden Formular an:"
-
-#~ msgid "or"
-#~ msgstr "oder"
-
-#~ msgid "Signed Out"
-#~ msgstr "Ausgeloggt."
-
-#~ msgid "Change Password"
-#~ msgstr "Passwort ändern"
-
-#~ msgid "Delete Password"
-#~ msgstr "Passwort löschen"
-
-#~ msgid "delete my password"
-#~ msgstr "Passwort löschen"
-
-#~ msgid "Password Deleted"
-#~ msgstr "Passwort gelöscht"
-
-#~ msgid "Your password has been deleted."
-#~ msgstr "Dein Passwort wurde gelöscht."
-
-#~ msgid ""
-#~ "Forgotten your password? Enter your e-mail address below, and we'll send "
-#~ "you an e-mail allowing you to reset it."
-#~ msgstr ""
-#~ "Wenn du deine E-Mail-Adresse eingibst, bekommst du eine E-Mail mit einem "
-#~ "Link, mit dem du dein Passwort zurücksetzen kannst:"
-
-#~ msgid "Reset My Password"
-#~ msgstr "Mein Passwort zurücksetzen"
-
-#~ msgid "Please contact us if you have any trouble resetting your password."
-#~ msgstr "Bitte sag uns Bescheid, falls es dabei irgendwelche Probleme gibt."
-
-#~ msgid ""
-#~ "We have sent you an e-mail. Please contact us if you do not receive it "
-#~ "within a few minutes."
-#~ msgstr ""
-#~ "Du solltest in Kürze eine E-Mail bekommen. Bitte kontaktiere uns, wenn du "
-#~ "diese E-Mail nach 10 Minuten immer noch nicht bekommen hast."
-
-#~ msgid "Bad Token"
-#~ msgstr "Unbekanntes Token"
-
-#~ msgid ""
-#~ "The password reset link was invalid, possibly because it has already been "
-#~ "used.  Please request a <a href=\"%(passwd_reset_url)s\">new password "
-#~ "reset</a>."
-#~ msgstr ""
-#~ "Dieser Passwort-Zurücksetzen-Link funktioniert nicht. Vermutlich wurde er "
-#~ "bereits einmal dazu benutzt. Bitte fordere diesen Link <a href="
-#~ "\"%(passwd_reset_url)s\">nochmal an</a> oder kontaktiere uns."
-
-#~ msgid "change password"
-#~ msgstr "Passwort ändern"
-
-#~ msgid "Your password is now changed."
-#~ msgstr "Dein neues Passwort ist jetzt aktiv. Yeah."
-
-#~ msgid "Set Password"
-#~ msgstr "Passwort setzen"
-
-#~ msgid "Signup"
-#~ msgstr "Account erstellen"
-
-#~ msgid "Sign Up"
-#~ msgstr "Account erstellen"
-
-#~ msgid ""
-#~ "Already have an account? Then please <a href=\"%(login_url)s\">sign in</"
-#~ "a>."
-#~ msgstr ""
-#~ "Du hast schon einen Account? Dann <a href=\"%(login_url)s\">logge dich "
-#~ "bitte ein</a>."
-
-#~ msgid "Verify Your E-mail Address"
-#~ msgstr "Deine E-Mail-Adresse überprüfen"
-
-#~ msgid "Note"
-#~ msgstr "Hinweis"
-
-#~ msgid "you are already logged in as %(user_display)s."
-#~ msgstr "Du bist bereits eingeloggt als %(user_display)s."
-
-#~ msgid "OpenID Sign In"
-#~ msgstr "OpenID Login"
-
-#~ msgid "Account Inactive"
-#~ msgstr "Account inaktiv"
-
-#~ msgid "This account is inactive."
-#~ msgstr "Dieser Account ist inaktiv"
-
-#~ msgid "Social Network Login Failure"
-#~ msgstr "Social Network Login Fehler"
-
-#~ msgid ""
-#~ "An error occurred while attempting to login via your social network "
-#~ "account."
-#~ msgstr "Während dem Login via soziales Netzwerk ist ein Fehler passiert"
-
-#~ msgid "Account Connections"
-#~ msgstr "Account-Verknüpfungen"
-
-#~ msgid ""
-#~ "You can sign in to your account using any of the following third party "
-#~ "accounts:"
-#~ msgstr ""
-#~ "Du kannst dich in deinen Account mit folgenden externen Accounts "
-#~ "einloggen:"
-
-#~ msgid ""
-#~ "You currently have no social network accounts connected to this account."
-#~ msgstr ""
-#~ "Momentan sind keine sozialen Netzwerke mit deinem Account verbunden."
-
-#~ msgid "Add a 3rd Party Account"
-#~ msgstr "Externen Account hinzufügen"
-
-#~ msgid "Login Cancelled"
-#~ msgstr "Login abgebrochen"
-
-#~ msgid ""
-#~ "You decided to cancel logging in to our site using one of your existing "
-#~ "accounts. If this was a mistake, please proceed to <a href=\"%(login_url)s"
-#~ "\">sign in</a>."
-#~ msgstr ""
-#~ "Du hast dich dafür entschieden, den Login bei uns mit einem deiner "
-#~ "bestehenden Accounts abzubrechen. Wenn das ein Fehler war, geh zum <a "
-#~ "href=\"%(login_url)s\">Login</a>."
-
-#~ msgid ""
-#~ "You are about to use your %(provider_name)s account to login to \n"
-#~ "%(site_name)s. As a final step, please complete the following form:"
-#~ msgstr ""
-#~ "Soso, du verwendest deinen %(provider_name)s -Account für Data Dealer? "
-#~ "Jetzt nur noch Nickname wählen und E-Mail eintragen & ab geht die Post:"

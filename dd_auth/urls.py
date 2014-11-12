@@ -31,7 +31,7 @@ urlpatterns = patterns('',
     url(r'^accounts/remote/sign_up/$', 'dd_auth.views.sign_up', {'template_name': 'account/sign_up.html'}, name='remote_sign_up'),
     url(r'^accounts/remote/reset/$', 'dd_auth.views.reset_password', {'template_name': 'account/reset.html'}, name='remote_reset_password'),
     url(r'^accounts/remote/sign_out/$', 'dd_auth.views.sign_out', name='remote_sign_out'),
-    url(r'^accounts/remote/set_email/$', 'dd_auth.views.set_email', name='remote_set_email')
+    #url(r'^accounts/remote/set_email/$', 'dd_auth.views.set_email', name='remote_set_email')
 )
 
 if getattr(settings, 'DD_SERVE_STATIC', False):

@@ -50,10 +50,13 @@
         </div>
     </form>
     <div class="hr"></div>
-    <h3>{% trans "Wie komme ich zu einem Account?" %}</h3>
-    <h3>{% if invite_required %}INVITES ON{% endif %}</h3>
+{% if invite_required %}
+    <h2>{% trans "Wie komme ich zu einem Account?" %}</h2>
     <p>{% blocktrans %}Data Dealer läuft momentan im halböffentlichen Testbetrieb. Um Zugang zu bekommen, benötigst du einen Invite Link. Den bekommst du via E-Mail. Hier kannst du dich für einen <a href='http://datadealer.com/de/beta' target='_blank'>Invite Link</a> voranmelden.{% endblocktrans %}</p>
-
+{% else %}
+    <h2>{% trans "openreg Title" %}</h2>
+    <p>{% blocktrans %}openreg <a href='/#sign_up'>Neuer Account</a>.{% endblocktrans %}</p>
+{% endif %}
 {% block extra_body %}
     <script>
         $("#id_login").focus();
